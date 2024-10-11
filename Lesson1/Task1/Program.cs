@@ -6,11 +6,11 @@
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
 
-using System.Data;
 
 int firstnumber =  9;
 int secondnumber = 4;
 
+// Простой вывод
 // if(firstnumber == secondnumber * secondnumber) // true
 // {
 // System.Console.WriteLine("Yes");
