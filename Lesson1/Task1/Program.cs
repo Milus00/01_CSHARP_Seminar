@@ -8,15 +8,24 @@
 
 using System.Data;
 
-int firstnumber =  25;
-int secondnumber = 5;
+int firstnumber =  9;
+int secondnumber = 4;
 
+// if(firstnumber == secondnumber * secondnumber) // true
+// {
+// System.Console.WriteLine("Yes");
+// }
+// else
+// {
+// System.Console.WriteLine("No");
+// }
+ 
+// Варианты выводы - первый сложный, второй легче
 if(firstnumber == secondnumber * secondnumber) // true
 {
-System.Console.WriteLine("Yes");
+System.Console.WriteLine("a = " + firstnumber + " , b = " + secondnumber + " => да");
 }
 else
 {
-System.Console.WriteLine("No");
+System.Console.WriteLine($"a = {firstnumber}, b = {secondnumber} => нет");
 }
- 
