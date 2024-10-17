@@ -14,8 +14,9 @@ if (number < 0)
 }
 
 int i = - number;
-while(i <=number)
+while(i <number)
 {
-    System.Console.Write(i + " ");
+    System.Console.Write(i + " , ");
     i++; // i = i+1; // i += 1;
 }
+System.Console.Write(number);
